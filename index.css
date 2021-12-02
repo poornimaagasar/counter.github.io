@@ -1,0 +1,33 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.buttons
+{
+  display:flex;
+  justify-content: center;  
+  gap:1rem 2rem;
+  
+}
+.btn
+{
+    font-size:1.5rem;
+    border:none;
+    padding:1rem 2rem;
+    border-radius: 5px;
+}
+h1
+{
+    text-align: center;
+    font-size: 3rem;
+}
+@media(max-width:500px)
+{
+    .buttons
+    {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        margin:1rem 3rem;
+    }
+}
