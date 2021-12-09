@@ -23,7 +23,7 @@ h1
 }
 @media(max-width:500px)
 {
-    .buttons
+    .btn
     {
         display:flex;
         flex-direction: column;
